@@ -1,7 +1,12 @@
-import React from 'react';
-import {Text} from 'react-native';
+import React, {FC} from 'react';
+import {View} from 'react-native';
+import Cafe from './src/components/props&state';
 
-const App = () => {
-  return <Text>Hanuman Ghawade</Text>;
+const App: FC = () => {
+  return (
+    <View>
+      <Cafe />
+    </View>
+  );
 };
 export default App;
